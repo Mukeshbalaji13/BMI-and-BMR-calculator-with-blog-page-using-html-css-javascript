@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMR Chart</title>
+  <link rel="stylesheet" href="./bmi and bmr blog.css">
+  <link rel="icon" type="icon" href="./bmi and bmr assets/clinic logo.png">
+  <script src="https://kit.fontawesome.com/793d7b86bc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="loading">
+    <img src="bmi and bmr assets/clinic logo.png" alt="Loading Image">
+  </div>
+
+  <div class="header">
+    <div class="logo">
+      <img src="./bmi and bmr assets/Clinical Logo.png" alt="Clinical Logo">
+  </div>
+  <div class="contacts">
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    <a class="calc" href="./bmi calculator.html">Know your BMI and BMR</a>
+  </div>
+  </div>
+
+  <!-- Hamburger icon -->
+  <div class="hamburger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+
+  <div class="nav">
+    <ul>
+      <li><a href="./bmi blog what is bmi and bmr.html">What is BMI and BMR?</a></li>
+      <li><a href="./bmi blog bmi weight ranges.html">BMI Weight Ranges</a></li>
+      <li><a href="./bmi blog limitaions of bmi.html">Limitations of BMI</a></li>
+      <li><a href="./bmi blog health risks with bmi.html">Health Risks with BMI</a></li>
+      <li><a href="./bmi blog bmi and physiotherapy.html">BMI and Physiotherapy</a></li>
+      <li><a href="./bmr blog why do we need to know bmr.html">Why do we need to know BMR</a></li>
+      <li><a href="./bmr blog BMR Variables.html">BMR Variables</a></li>
+      <li><a href="./bmr blog Factors Influencing BMR.html">Factors Influencing BMR</a></li>
+      <li class="activepage"><a href="#">BMR Chart</a></li>
+    </ul>
+  </div>
+  
+  <div class="contentheading">
+    <img src="bmi and bmr assets/bmi and bmr blog-bmr chart-page heading image.jpg" alt="page heading image">
+    <h1>BMR CHART</h1>
+  </div>
+  <div class="content">
+    <br/><br/>
+    <table class="bmrchart-tab">
+        <tr>
+            <th colspan="4">Men and Women</th>
+        </tr>
+        <tr>
+            <th>HEIGHT(cm)</th>
+            <th>AGE(year)</th>
+            <th>WEIGHT(kg)</th>
+            <th>BMR(kcal/day)</th>
+        </tr>
+        <tr>
+            <td rowspan="5">152</td>
+            <td>25</td>
+            <td rowspan="5">30-50</td>
+            <td>1233 - 1333</td>
+        </tr>
+        <tr>
+            <td>35</td>
+            <td>1183 - 1283</td>
+        </tr>
+        <tr>
+            <td>45</td>
+            <td>967 - 1067</td>
+        </tr>
+        <tr>
+            <td>55</td>
+            <td>917 - 1067</td>
+        </tr>
+        <tr>
+            <td>65</td>
+            <td>1033 - 1133</td>
+        </tr>
+    </table>
+
+
+    <h3>Estimated Basal Metabolic Rate (in calories/day)</h3>
+    <h4>Based on the Harris-Benedict equation</h4>
+    <table class="bmrchart-tab">
+      <tr>
+        <th>Age Group</th>
+        <th>Men (BMR)</th>
+        <th>	Women (BMR)</th>
+      </tr>
+      <tr>
+        <td>18-30</td>
+        <td>15.3 x weight (kg) + 679</td>
+        <td>14.7 x weight (kg) + 496</td>
+      </tr>
+      <tr>
+        <td>31-60</td>
+        <td>11.6 x weight (kg) + 879</td>
+        <td>8.7 x weight (kg) + 829</td>
+      </tr>
+      <tr>
+        <td>61+</td>
+        <td>13.5 x weight (kg) + 487</td>
+        <td>10.5 x weight (kg) + 596</td>
+      </tr>
+    </table>
+
+    <h4>based on the Mifflin-St Jeor equation</h4>
+    <table class="bmrchart-tab">
+      <tr>
+        <th>Age Group</th>
+        <th>Men (BMR)</th>
+        <th>Women (BMR)</th>
+      </tr>
+      <tr>
+        <td>18-30</td>
+        <td>88.362 + (13.397 × weight)</td>
+        <td>447.593 + (9.247 × weight)</td>
+      </tr>
+      <tr>
+        <td>31-60</td>
+        <td>88.362 + (9.799 × weight)</td>
+        <td>447.593 + (3.098 × weight)</td>
+      </tr>
+      <tr>
+        <td>61+</td>
+        <td>88.362 + (13.397 × weight)</td>
+        <td>447.593 + (8.682 × weight)</td>
+      </tr>
+    </table>
+
+
+    <h3>BMR Chart with Activity Factors</h3>
+    <h4>Estimated Total Daily Calorie Needs (TDEE) (in calories/day)</h4>
+    <table class="bmrchart-tab">
+      <tr>
+        <th>Activity Level</th>
+        <th>Men (TDEE)</th>
+        <th>Women (TDEE)</th>
+      </tr>
+      <tr>
+        <td>Sedentary (little to no exercise)</td>
+        <td>BMR x 1.2</td>
+        <td>BMR x 1.2</td>
+      </tr>
+      <tr>
+        <td>Lightly Active (light exercise/sports 1-3 days/week)</td>
+        <td>BMR x 1.375</td>
+        <td>BMR x 1.375</td>
+      </tr>
+      <tr>
+        <td>Moderately Active (moderate exercise/sports 3-5 days/week)</td>
+        <td>BMR x 1.55</td>
+        <td>BMR x 1.55</td>
+      </tr>
+      <tr>
+        <td>Very Active (hard exercise/sports 6-7 days/week)</td>
+        <td>BMR x 1.725</td>
+        <td>BMR x 1.725</td>
+      </tr>
+      <tr>
+        <td>Extra Active (very hard exercise/sports and a physical job)</td>
+        <td>BMR x 1.9</td>
+        <td>BMR x 1.9</td>
+      </tr>
+    </table>
+
+
+    <h3>Medical Considerations</h3>
+    <img src="./bmi and bmr assets/bmi and bmr blog bmr chart medical considerations.jpg" alt="medical considerations">
+    <p>The metabolism of a person changes depending on their physical state and exercise level. Weight training has a lengthier influence on metabolism over aerobic training, yet there are no mathematical models that can precisely estimate the period & duration of an elevated metabolism from anabolic neuromuscular training trophic alterations.A reduction in food intake often results in a drop in the rate of metabolism as the body attempts to conserve energy. According to Gary Foster, an extremely low caloric diet of less than 800 calories per day will cut the rate of metabolism by more than 10%. Some medicines, including antithyroid agents, pharmaceuticals utilized for treating hyperthyroidism, including as propylthiouracil & methimazole, might impact the metabolic rate, bringing it back to normal and restoring euthyroidism. Some studies have focused on the development of antiobesity medications that increase the rate of metabolism, such as those that induce the process of thermogenesis in muscle tissue.Stress, illness, & diabetes can all cause an increase in metabolic rate. Menopause might also have an impact on metabolism.</p>
+    
+    
+    <h3>Increasing every day Calorie Expenditure</h3>
+    <img src="./bmi and bmr assets/bmi and bmr blog bmr chart calorie expenditure.svg" alt="calorie expenditure">
+    <p>Your initial metabolic rate greatly influences the overall amount of calorie you burn per day. However, by altering your diet and activity level, you can burn additional calories each day. The basal metabolic rate & two other criteria can help you estimate the number of calories that you burn each day.</p>
+    <p>The basal metabolic rate accounts for around 60-75 percent total calories burnt per day. Muscle mass should be increased in order to burn additional calories.</p>
+    <p>Non-exercise physical activity and movement account for around 15%-30% of the total number of calories burned daily. Increased daily activity to burn additional calories.</p>
+    <p><b>Food's thermogenic effects:</b> calories expended through eating & digestion account for approximately ten percent of total calories consumed each day. To make a small difference, choose healthful protein-rich foods.</p>
+    <p>You will produce a deficit in calorie intake or an imbalance of energy if you are able to burn additional calories than you ingest. If you consume less calories than you burn, you will produce a positive surplus of energy & gain weight.</p>
+</div>
+
+  <script src="./bmi and bmr blog.js"></script>
+
+
+
+<div style="display: none;">
+  <iframe width="315" height="315" src="https://www.youtube.com/embed/RVLNBVK8auM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="315" height="315" src="https://www.youtube.com/embed/RVLNBVK8auM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+  </body>
+  </html>
