@@ -1,1 +1,0 @@
-# BMI-and-BMR-calculator-with-blog-page-using-html-css-javascript

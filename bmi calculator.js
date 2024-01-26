@@ -61,28 +61,28 @@ function getHealthStatus(bmi) {
 function picture(bmi, gender){
   if (gender === "male"){
     if (bmi < 18.5) {
-      return "bmi male underweight.png";
+      return "bmi and bmr assets/bmi male underweight.png";
     } else if (bmi >= 18.5 && bmi <= 24.9) {
-      return "bmi male healthy.png";
+      return "bmi and bmr assets/bmi male healthy.png";
     } else if (bmi >= 25.0 && bmi <= 29.9) {
-      return "bmi male fat.png";
+      return "bmi and bmr assets/bmi male fat.png";
     } else if (bmi >= 30.0 && bmi < 34.9) {
-      return "bmi male obese.png";
+      return "bmi and bmr assets/bmi male obese.png";
     } else {
-      return "bmi male extremely obese.png";
+      return "bmi and bmr assets/bmi male extremely obese.png";
     }
   }
   else {
     if (bmi < 18.5) {
-      return "bmi female underweight.png";
+      return "bmi and bmr assets/bmi female underweight.png";
     } else if (bmi >= 18.5 && bmi <= 24.9) {
-      return "bmi female healthy.png";
+      return "bmi and bmr assets/bmi female healthy.png";
     } else if (bmi >=25.0 && bmi <= 29.9) {
-      return "bmi female fat.png";
+      return "bmi and bmr assets/bmi female fat.png";
     } else if (bmi >= 30.0 && bmi < 34.9) {
-      return "bmi female obese.png";
+      return "bmi and bmr assets/bmi female obese.png";
     } else {
-      return "bmi female extremely obese.png";
+      return "bmi and bmr assets/bmi female extremely obese.png";
     }
   }
 }
@@ -141,7 +141,7 @@ function calculateBMR() {
 
   document.getElementById("result").innerHTML = "Your BMR: " + bmr.toFixed(2) + " calories";
   document.getElementById("health-status").innerHTML = "You are consuming " + bmr.toFixed(2) + " calories/day"
-  document.getElementById("image-show").src = "favpng_calorie-clip-art.png"
+  document.getElementById("image-show").src = "bmi and bmr assets/favpng_calorie-clip-art.png"
 
   var color = bmrcolorchange(gender);
   document.getElementById("result").style.backgroundColor = color;
